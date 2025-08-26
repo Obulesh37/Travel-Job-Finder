@@ -1,12 +1,60 @@
-# React + Vite
+🌍 Work & Travel Job Finder
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple React.js application that helps users search, filter, and apply for jobs at travel and hospitality companies. Users can:
 
-Currently, two official plugins are available:
+<button><a href="https://travel-job-finder.vercel.app/">Live Demo</a></button>
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Track how many companies they’ve applied to (cart-style counter)
 
-## Expanding the ESLint configuration
+🚀 Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+🔎 Search & Filter jobs by keywords, industry, and state
+
+📋 Company details modal with contact info
+
+📩 Apply button that opens your default email client
+
+🛒 Application Cart showing how many jobs you’ve applied for
+
+🎨 Clean UI with Tailwind CSS (modern cards, buttons, modals)
+
+🛠️ Tech Stack
+
+React.js (functional components + hooks)
+
+Tailwind CSS (styling & responsive design)
+
+📂 Project Structure
+work-travel-job-finder/
+│── src/
+│   ├── App.js                # Main app entry
+│   ├── index.js              # React DOM render
+│   ├── WorkTravelJobFinder.js # Main Job Finder component
+│   └── styles.css            # Tailwind base styles
+│
+│── public/
+│   └── index.html
+│
+│── package.json
+│── README.md
+
+⚡ Installation & Setup
+
+
+
+Install dependencies:
+
+npm install
+
+
+Start the development server:
+
+npm start
+
+
+Open in browser:
+
+http://localhost:3000
+
+
+
